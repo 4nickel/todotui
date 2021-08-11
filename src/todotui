@@ -1,4 +1,4 @@
-#!/usr/bin/env /usr/bin/python3
+#!/usr/bin/env python3
 
 import re
 import os
@@ -1563,12 +1563,13 @@ RE_PRIORITY     = r'\([A-Z]\)'
 DATE_DUE = "due:"
 DATE_THR = "t:"
 
-TODO_DIR = "/home/czar/cloud/todo"
+HOME = os.environ['HOME']
+TODO_DIR = HOME + "/Cloud/Home/Calendar/Todo"
 TODO_FILE = TODO_DIR + "/todo.txt"
 DONE_FILE = TODO_DIR + "/done.txt"
 
-CONFIG_DIR = "/home/czar/.config/todotui"
-CONFIG_FILE = CONFIG_DIR + "/config.yaml"
+CONFIG_DIR = HOME + "/.config/todo"
+CONFIG_FILE = CONFIG_DIR + "/config.tui.yaml"
 
 SEPERATOR_PACKED        = TaskSeperator(0, 0, "Packed",       "")
 SEPERATOR_SPACED        = TaskSeperator(0, 1, "Spaced",       "")
