@@ -1,7 +1,7 @@
 # todo.tui
-#### Textual user interface for todo.txt
+#### _Textual user interface for todo.txt_
 
-##### Features:
+### Features
 - Add, delete, change and mark entries
 - Manage multiple todo.txt files
 - Customizable look and feel
